@@ -1,0 +1,123 @@
+.main{
+    margin-top: 3rem;
+}
+.nav{
+    z-index: 99;
+    background-color: #1EAE98;
+    color: #A9F1DF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-bottom: 20px;
+    opacity: 0.95;
+    filter: contrast(110%);
+    z-index: 99;
+}
+.mobile-nav{
+    display: inline;
+}
+@media screen and (max-width: 850px){
+    .btn{
+        display: none;
+    }
+}
+@media screen and (max-width: 775px) and (min-width: 640px){
+    .link{
+        margin-right: 0.7rem;  
+    }
+    .container {
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 640px){
+    .hamburger-menu{
+        display: none;
+    }
+    .hero1 nav a{
+        color: #233E8B;
+    }
+}
+@media screen and (max-width: 640px){
+    .hero1{
+        height: 3rem;
+        text-align: center;
+    }
+    .nav-link{
+        display: none;
+    }
+    .mobile-nav{
+        display: flex;
+        height: 3rem;
+    }
+    .menu-link{
+        position: fixed;
+        background-color: #1EAE98;
+        width: 100%;
+        opacity: 0.9;
+        filter: contrast(110%);
+    }
+}
+.hero{
+    /* height: auto; */
+    height: 3rem;
+    text-align: center;
+    position: relative;
+}
+.hamburger-menu{
+    margin: 1rem;
+
+}
+.hero1{
+    display: flex;
+}
+.logo-text{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    margin-top: 0.6rem;
+}
+.menu-link a{
+    display: block;
+    width: 100%;
+    height: 2rem;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: black;
+    margin-left: 3.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.base{
+    background-color: #1EAE98;
+    overflow: hidden;
+    position: fixed;
+    bottom: 4%;
+    opacity: 0.95;
+    filter: contrast(110%);
+}
+.base-main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.base a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* css of base bar for mobile */
+@media screen and (max-width: 640px){
+    .base{
+        bottom: 0;
+        width: 100%;
+        border-radius: 0;
+        opacity: 1;
+        filter: contrast(100%);
+    }
+    .base a{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+} 

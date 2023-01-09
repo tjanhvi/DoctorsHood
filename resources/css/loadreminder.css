@@ -1,0 +1,7 @@
+@media screen and (min-width: 600px) {
+    .cal {
+        justify-content: center;
+        text-align: center;
+        margin-left: 16rem;
+    }
+}

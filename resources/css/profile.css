@@ -1,0 +1,150 @@
+.profile-div{
+    margin-top: 4rem;
+    width: 100%;
+    height: 30rem;
+    position: relative;
+}
+.child-div{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    padding-top: 1rem;
+    height: 100%;
+    border-radius: 3%;
+}
+.profile-img{
+   width: 5rem;
+   border-radius: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   margin: auto;
+}
+.img-parent1 label, .img-parent1 input, .img-parent1 select{
+    padding-left: 0.5rem;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.img-parent1 input, .img-parent1 select{
+    padding: 0.2rem;
+    padding-left: 0.5rem;
+    margin-left: 1rem;
+}
+.gender p{
+    padding-top: 1.3rem; 
+    font-size: 1.2rem;
+    padding-left: 1.28rem;
+    padding-bottom: 1.3rem;
+}
+.gender-div{
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    /* border: 2px solid gray; */
+}
+.gender1{
+    /* border: 2px solid yellow; */
+}
+.child-div h1{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+.checkbox-div{
+   width: 7rem;
+} 
+.dec-p{
+    display: inline;
+}
+.dec{
+    margin: 2.5rem;
+}
+.dec-dev{
+    display: inline;
+}
+.dec button{
+    margin:auto;
+}
+.dec-btn{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+.dec-c{
+    position: relative;
+    top: 3px;
+}
+.dec-p{
+    padding-left: 0.3rem;
+}
+@media screen and (max-width: 640px){
+    .child-div{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .child-div h1{
+        font-size: 1.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+        text-align: left;
+        margin-left: 2.5rem;
+    }
+    .profile-img {
+        margin: 0;
+        margin-left: 3rem;
+    }
+    .img-parent1 label, .img-parent1 input, .img-parent1 select{
+        margin-left: 2.5rem;
+        font-size: 1rem;
+        display: block;
+        /* padding-left: 0; */
+    }
+    .gender p{
+        padding-top: 0rem; 
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        padding-bottom: 0rem;
+        margin-left: 2.5rem;
+        margin-top: 1.5rem;
+    }
+    .gender-div{
+        margin-left: 3rem;
+        /* margin-top: 1.5rem; */
+        margin-top: 0;
+        padding:0;
+    }
+    .checkbox-div{
+        width: auto;
+    }
+    .img-parent1 label{
+        margin-left: 2.5rem;
+        margin-top: 1.5rem;
+        font-size: inherit;
+    }
+    .img-parent1 input, .img-parent1 select{
+        width: 75%;
+    }
+    .dec{
+        margin: 0;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-top: 1.5rem;
+    }
+    .dec-p{
+        font-size: x-small;
+    }
+    .dec input{
+        display: inline;
+        width: auto;
+        margin-left: auto;
+    }
+    .dec-btn{
+        padding-bottom: 4rem;
+        margin-top: 1rem;
+    }
+}

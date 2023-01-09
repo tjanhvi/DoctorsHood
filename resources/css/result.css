@@ -1,0 +1,19 @@
+/* .center-01{
+    justify-content: center;
+    margin-left: 20rem;
+    margin-top: 8rem;
+    
+  } */
+ 
+@media only screen and (min-width:650px){
+    .center-01{
+      justify-content: center;
+      margin-top: 2rem;
+
+    }
+    .center-02{
+      width: 75%;
+      padding: 0 0;
+      margin: 0 auto;
+    }
+  } 
